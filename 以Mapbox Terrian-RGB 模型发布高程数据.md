@@ -53,7 +53,7 @@ pip install rio-rgbify
 
    ***GeoTiff 的坐标系必须是 WGS84 Web 墨卡托 (EPSG:3857)。*** 通常 Geo Tiff 格式的灰度栅格图片看起来是黑白的。
 
-   <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/dem.png" style="margin-left:0px;zoom:53%;">
+   <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/dem.png" style="margin-left:0px;zoom:53%;">
 
    如果不清楚坐标系的话，可以使用 rasterio 提供的命令行来获取坐标系：
 
@@ -91,7 +91,7 @@ pip install rio-rgbify
    rio rgbify -b -10000 -i 0.1 xxxx_n.tif xxxx_n_rgb.tif
    ~~~
 
-   <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/rgb.png" style="margin-left:0px;zoom:53%;">
+   <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/rgb.png" style="margin-left:0px;zoom:53%;">
 
    
 
@@ -99,27 +99,27 @@ pip install rio-rgbify
 
    1. 创建工作区
 
-      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/workspace.png" alt="workspace.png" style="zoom:53%;margin-left:0" />
+      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/workspace.png" alt="workspace.png" style="zoom:53%;margin-left:0" />
 
    2. 创建数据存储
 
       数据源选择 GeoTIFF
 
-      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/datastore-geotiff.png" style="zoom:53%;margin-left:0px" />
+      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/datastore-geotiff.png" style="zoom:53%;margin-left:0px" />
 
-      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/datastore-geotiff2.png" style="zoom:53%;margin-left:0px" />
+      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/datastore-geotiff2.png" style="zoom:53%;margin-left:0px" />
 
    3. 发布图层
 
-      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/layer.png" style="zoom:53%;margin-left:0" />
+      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/layer.png" style="zoom:53%;margin-left:0" />
 
    4. 创建图层组
 
-      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/layergroup.png" style="zoom:50%;margin-left:0" />
+      <img src="https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/layergroup.png" style="zoom:50%;margin-left:0" />
 
    ## Step 8    查看结果
 
-   ## ![](https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/result1.png)
+   ## ![](https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/result1.png)
 
-   ## ![](https://gitee.com/shiayanga/pictures/raw/master/mapbox terrain-rgb/result2.png)
+   ## ![](https://gitee.com/shiayanga/pictures/raw/master/mapbox-terrain-rgb/result2.png)
 
